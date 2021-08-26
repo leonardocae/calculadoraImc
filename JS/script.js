@@ -61,6 +61,7 @@ function setResultado (msg, isValid) {
     } else {
         p.classList.add('resultado-errado');
     }
+
     p.innerHTML = msg;
 
     resultado.appendChild(p);
