@@ -3,8 +3,15 @@
     padding: 0;
 }
 
+html {
+    overflow: hidden;
+}
+
 body {
-    background-color: aqua;
+    background-image: url(file:///C:/Users/leona/Downloads/undraw_indoor_bike_pwa4.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .content-tabela {
@@ -13,18 +20,29 @@ body {
     width: 400px;
     background-color: white;
     padding: 20px;
+    border-radius: 10px;
+    border: #6c63ff solid 1px;
+}
+
+.content-tabela h1 {
+    text-align: center;
+    color: #6c63ff;
 }
 
 .content-tabela ul li {
     list-style-type: none;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 5px;
+
 }
 
 .list-tabela {
     display: flex;
-    margin: 0 auto;
-    padding: 20px;
-    align-items: flex-start;
-    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.list-tabela ul {
+    width: 50%;
 }
 
 .list-tabela li {
@@ -39,10 +57,22 @@ form input, form label, form button {
   
   form input {
     font-size: 15px;
-    height: 20px;
-    padding: 0;
+    height: 30px;
+  }
+  
+  form button{
+    margin: 20px auto;
+    background-color: #6c63ff;
+    border-radius: 5px;
+    border: #fff solid 2px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
   }
 
+#formulario {
+    margin-top: 20px;
+}
   
 .resultado-certo {
     background-color: rgb(115, 255, 190);
@@ -52,4 +82,12 @@ form input, form label, form button {
 .resultado-errado {
     background-color: rgb(255, 143, 115);
     padding: 10px 20px;
+}
+
+.leonardo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: #ccc;
+    padding: 5px;
 }
