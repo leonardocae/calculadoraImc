@@ -44,7 +44,7 @@ function getResultadoImc (imc) {
 }
 
 function getImc (peso, altura) {
-    const imc = peso / altura ** 2;
+    const imc = peso / (altura / 100) ** 2;
     return imc.toFixed(2);
 
 }
