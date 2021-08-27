@@ -8,16 +8,18 @@ html {
 }
 
 body {
-    background-image: url(file:///C:/Users/leona/Downloads/undraw_indoor_bike_pwa4.svg);
+    background-image: url("../img/bike.png");
     width: 100%;
     background-repeat: no-repeat;
+    background-position:left top;
     font-family: 'Open Sans', sans-serif;
 }
 
 .content-tabela {
     margin: 80px auto;
     height: auto;
-    width: 400px;
+    max-width: 400px;
+    min-width: 320px;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -84,7 +86,7 @@ form input, form label, form button {
     padding: 10px 20px;
 }
 
-.leonardo {
+.leonardoCaetano {
     position: fixed;
     bottom: 0;
     right: 0;
